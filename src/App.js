@@ -44,7 +44,7 @@ function App() {
         </Routes>
       </main>
       {!isLoginOrSignup && <footer className='bg-secondary'>
-        <div className="py-10 mx-20 flex justify-between gap-4 text-gray-dark font-light">
+        <div className="py-10 mx-20 flex flex-col mid:flex-row justify-between  text-gray-dark font-light">
           <Footer />
         </div>
       </footer>}
